@@ -10,3 +10,28 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+
+    footer{
+            background-color: rgba(51,51,51,255);
+            color: white;
+            padding: 20px;
+            margin-top: 15px;
+        
+            flex-grow: 1;
+            order: 4;
+            display: flex;
+            justify-content:space-between;
+
+        
+    }
+    .enlaces{
+        background-color: rgba(255, 128, 0);
+
+    }
+     div a{
+      color: white;
+      padding: 5px;
+      margin-top:20px;
+    }
+   
