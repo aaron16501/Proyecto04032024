@@ -3,6 +3,11 @@
         margin: 0;
         box-sizing: border-box;
     }
+
+    body {
+        background-color: aqua;
+    }
+
     .contenedor{
         margin: auto;
         max-width: 1000px;
@@ -10,7 +15,6 @@
         display: flex;
         flex-wrap: wrap;
     }
-
    
     .encabezado{
         background-color: gray;
@@ -42,7 +46,6 @@
         background-color: rgba(51,51,51,255);
         color: white;
         padding: 20px;
-        margin-top: 15px;
     
         flex-grow: 1;
         order: 4;
@@ -59,4 +62,33 @@
     color: white;
     padding: 5px;
     margin-top:20px;
+    }
+
+    main {
+        width: 70%;
+        padding: 10px 10px 20px 10px;
+        background-color: aliceblue;
+    }
+
+    hr {
+        margin: 10px 0px 10px 0px;
+    }
+
+    aside {
+        width: 30%;
+        background-color: orange;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    aside .aside1 {
+        background-color: chocolate;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    aside .aside2 {
+        background-color: chocolate;
+        padding: 20px;
     }
