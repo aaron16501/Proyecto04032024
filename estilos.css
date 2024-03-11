@@ -48,12 +48,17 @@ body {
 
 main {
     width: 70%;
-    padding: 10px 10px 20px 10px;
+    padding: 10px;
     background-color: aliceblue;
+   
 }
 
 hr {
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px;
+	width: 100%;
+	height: 2px;
+	border: 0;
+	background: #0d0d0d;
 }
 
 aside {
@@ -63,7 +68,9 @@ aside {
     display: flex;
     flex-wrap: wrap;
 }
-
+aside img{
+    width: 100%;
+}
 aside .aside1 {
     background-color: chocolate;
     padding: 20px;
@@ -79,13 +86,10 @@ footer {
     background-color: rgba(51, 51, 51, 255);
     color: white;
     padding: 20px;
-
     flex-grow: 1;
     order: 4;
     display: flex;
     justify-content: space-between;
-
-
 }
 
 .enlaces {
@@ -120,5 +124,29 @@ div a {
     }
     .nav a{
         margin: 0;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        justify-content: space-between;
+    }
+    aside .aside1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        margin: 0;
+        padding: 10px;
+        
+    }
+    aside .aside2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        padding: 10px;
+    }
+    aside p{
+        padding: 0;
     }
 }
