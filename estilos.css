@@ -150,3 +150,16 @@ div a {
         padding: 0;
     }
 }
+
+@media (max-width:600px) {
+    aside {
+        
+    }
+    
+    footer p {
+        order: 1;
+    }
+    footer div {
+        order: 0;
+    }
+}
