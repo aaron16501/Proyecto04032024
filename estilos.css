@@ -152,8 +152,14 @@ div a {
 }
 
 @media (max-width:600px) {
-    aside {
-        
+    .asid {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+    
+    .aside1,
+    .aside2 {
+        width: 100%;
     }
     
     footer p {
