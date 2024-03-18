@@ -152,16 +152,16 @@ div a {
 }
 
 @media (max-width:600px) {
-    .asid {
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
     
-    .aside1,
-    .aside2 {
+    aside .aside1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    aside .aside2 {
         width: 100%;
     }
-    
+
     footer p {
         order: 1;
     }
