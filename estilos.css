@@ -102,3 +102,72 @@ div a {
     padding: 5px;
     margin-top: 20px;
 }
+
+@media (max-width:800px){
+    .encabezado{
+        flex-direction: column;
+        padding: 0;
+    }
+    .logo{
+        width: 100%;
+        padding: 10px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .nav{
+        width: 100%;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+    .nav a{
+        margin: 0;
+    }
+    main{
+        width: 100%;
+    }
+    aside{
+        width: 100%;
+        justify-content: space-between;
+    }
+    aside .aside1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        margin: 0;
+        padding: 10px;
+        
+    }
+    aside .aside2{
+        display: flex;
+        flex-wrap: wrap;
+        width: 45%;
+        padding: 10px;
+    }
+    aside p{
+        padding: 0;
+    }
+}
+
+@media (max-width:600px) {
+    
+    aside .aside1 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    aside .aside2 {
+        width: 100%;
+    }
+
+    footer p {
+        order: 1;
+    }
+    footer div {
+        order: 0;
+    }
+}
+
+/* Terminado */
